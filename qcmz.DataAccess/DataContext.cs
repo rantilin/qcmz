@@ -54,6 +54,12 @@ namespace qcmz.DataAccess
         /// 文章表
         /// </summary>
         public DbSet<T_Article> Q_Article { get; set; }
+
+        /// <summary>
+        /// 用户表
+        /// </summary>
+        public DbSet<T_Users> Q_Users { get; set; }
+
         public DataContext(CS cs)
              : base(cs)
         {

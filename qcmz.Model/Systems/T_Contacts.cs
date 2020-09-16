@@ -6,7 +6,7 @@ using WalkingTec.Mvvm.Core;
 namespace qcmz.Model
 {
     /// <summary>
-    /// 	用户表
+    /// 	游客表
     /// </summary>
     public class T_Contacts : TopBasePoco
     {
@@ -33,8 +33,11 @@ namespace qcmz.Model
         /// </summary>
         [Display(Name = "证件号")]
         public string Credentials { get; set; }
-
-
+        /// <summary>
+        ///  关联用户id
+        /// </summary>
+        [Display(Name = "用户id")]
+        public Guid userid { get; set; }
 
     }
 }

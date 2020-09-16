@@ -8,6 +8,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\qcmz.Model\qcmz.Model.csproj" />
-  </ItemGroup >
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="product\" />
+  </ItemGroup>
 </Project>
 

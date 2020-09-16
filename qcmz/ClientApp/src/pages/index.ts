@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 页面集合
  */
 export default {
@@ -38,6 +38,13 @@ export default {
     controller: "WalkingTec.Mvvm.Admin.Api,DataPrivilege",
     icon: "el-icon-odometer"
   }
+
+, t_productcategories: {
+    name: '门票分类',
+    path: '/t_productcategories',
+    controller: 'qcmz.Controllers,T_ProductCategories'
+    }
 /**WTM**/
+ 
 
 };

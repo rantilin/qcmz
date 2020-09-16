@@ -17,11 +17,14 @@
 
 
   <ItemGroup>
-    <PackageReference Include="WalkingTec.Mvvm.TagHelpers.LayUI" Version="3.7.2" />
-    <PackageReference Include="WalkingTec.Mvvm.Mvc.Admin" Version="3.7.2" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5" />
-        <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.5" />
+    <PackageReference Include="WalkingTec.Mvvm.TagHelpers.LayUI" Version="3.7.3" />
+    <PackageReference Include="WalkingTec.Mvvm.Mvc.Admin" Version="3.7.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.8" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="ClientApp\dist\**" />
@@ -70,7 +73,7 @@
    <ProjectReference Include="..\qcmz.Model\qcmz.Model.csproj" />
     <ProjectReference Include="..\qcmz.DataAccess\qcmz.DataAccess.csproj" />
     <ProjectReference Include="..\qcmz.ViewModel\qcmz.ViewModel.csproj" />
- </ItemGroup >
+ </ItemGroup>
 </Project>
 
 
